@@ -1,4 +1,4 @@
-/*HINGS TO DO
+/*THINGS TO DO
 - CREATE TITLE HTML ELEMENT WITH H2 HEADER, POSITION IT
 - CREATE INPUT AND POSITION
 - CREATE BUTTON ELEMENT AND POSTION
@@ -7,7 +7,7 @@
     -TAKE THE NAME AND STORE IT IN VAFR NAME
     -INCREASE THE PLAYERCOUNT
     -UPDATE THE PLAYERCOUNT AND THE NAME IN THE DTABASE
-    -CREATE, DISPALY AND POSTION THE GREETING ELEMENT
+    -CREATE, DISPLAY AND POSTION THE GREETING ELEMENT
 */
 class Form {
   constructor(){
@@ -33,6 +33,7 @@ class Form {
       var name = input.value();
       
       playerCount+=1;
+        //player is an object created in the game class 
       player.update(name)
       player.updateCount(playerCount);
       var greeting = createElement('h3');
